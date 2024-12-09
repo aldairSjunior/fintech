@@ -107,15 +107,14 @@ body{
 }
 
 .div-logo-login{
-    height: 400px;
-    
+    height: 100%;
 }
 
 .logo-login{
-    position: absolute;
-    width: 330px;
+    position:relative;
+    width: 40%;
     left: 50%;
-    top: 8%;
+    top: 50%;
     transform: translate(-50%, -7%);
 }
 
@@ -125,38 +124,62 @@ body{
 
 .div-login{
     background-color: rgba(0, 118, 129, 0.34);
-    position: absolute;
-    top: 700px;
+    position: relative;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 100px;
+    padding: 10%;
     border-radius: 15px;
-    width: 80%;
-    height: 90%;
+    width: 70%;
+    height: 600px;
+    max-height: 120vw;
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    margin-bottom: 3rem; 
 }
 
 .campo-login{
     width: 100%;
+    padding: 5%;
+    font-family: inria-serif;
+    font-size: 120%;
+    font-weight: 500;
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+
+.recuperar-senha{
+    margin-top: -14%;
+    color: rgba(0, 118, 129, 1);
+    font-family: inria-serif;
+}
+
+.recuperar-senha:hover{
+    cursor: pointer;
+    color: rgba(16, 24, 32, 1);
 }
 
 .facebook:hover{
 cursor: pointer;
-color: blue;
+color: rgba(0, 118, 129, 1);
 }
 
 .google:hover{
     cursor: pointer;
-    color: blue;
+    color: rgba(0, 118, 129, 1);
 }
 .google{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 20px;
+    color: rgba(16, 24, 32, 1);
 }
 
 .facebook{
+    margin-top: 20px;
+    color: rgba(16, 24, 32, 1);
+}
+
+button{
+    width: 180px;  
     margin-top: 50px;
 }
