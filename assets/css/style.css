@@ -149,8 +149,8 @@ body{
 }
 
 .recuperar-senha{
-    margin-top: -14%;
-    color: rgba(0, 118, 129, 1);
+    margin-top: -10%;
+    color: rgba(2, 98, 107);
     font-family: inria-serif;
 }
 
@@ -182,4 +182,15 @@ color: rgba(0, 118, 129, 1);
 button{
     width: 180px;  
     margin-top: 50px;
+}
+
+.criar-conta{
+    margin-top: -14%;
+    color: rgb(2, 98, 107);
+    font-family: inria-serif;
+}
+
+.criar-conta:hover{
+    cursor: pointer;
+    color: rgba(16, 24, 32, 1);
 }
